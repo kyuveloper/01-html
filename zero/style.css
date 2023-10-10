@@ -1,0 +1,56 @@
+
+:root {
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    height: 3000px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#headerNav {
+    height: 40rem;
+    background-image: url(https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -10rem;
+}
+
+.navbar {
+    margin: 0 auto;
+    padding: 1.5rem 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+}
+.navbar .title {
+    color: white;
+    padding: 8px 30px;
+    font-size: 27px;
+}
+.navbar .navContents {
+    margin: 0;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+.navbar .navContents li {
+    padding: 8px 30px;
+}
+.navbar .navContents li a {
+    color: white;
+}

@@ -1,0 +1,60 @@
+HTML
+
+<개요>
+- 크게 head와 body로 나뉜다
+  - head는 이 HTML 페이지의 전반적인 특성
+  - body는 화면에 그려질 모든 내용들
+
+<태그 모음>
+
+[입력]
+- 제목
+    - (h1, h2, ... , h6)
+- 문단
+    - p (paragraph)
+- 줄바꿈
+    - br (break) / hr (horizontal rule)
+
+[텍스트 효과]
+- 굵게
+    - b (bold) / strong
+- 기울임
+    - i (idiomatic) / em (emphasis)
+- 밑줄
+    - u (underline) 하지만 태그 사용보다 css 텍스트 속성인 text-decoration을 underline으로 하는 것이 좋다.
+- 취소선
+    - s (strikethorugh)
+- 인용 블록 요소
+    - blockquote
+        - abbr 줄임말
+        - cite 참고 내용
+        - code 소스 코드
+        - small 작은 텍스트
+        - sub 아래 첨자
+        - sup 위 첨자
+        - ins 공동 작업 문서에 새로운 내용 삽입
+        - del 공동 작업 문서에 기존 내용 삭제
+
+[문서 구조 태그]
+- header 헤더 영역
+- main 메인 영역
+- section 콘텐츠 영역
+- aside 사이드바 영역
+- footer 푸터 영역
+- nav 네이게이션 영역, 문서 내 다른 위치나 다른 문서로 연결할 때 사용
+- article 독립적인 컨텐츠를 사용할 때
+- section 콘텐츠 영역
+- div 여러 소스 묶기
+- figure vd
+
+[목록 입력]
+- ol (order list) 숫자 리스트
+    - <ol type="">의 type 란에 기호를 넣어 사용 가능 (ex: 1, a, A, i, I..)
+- ul (unorder list) 점 리스트
+
+[설명 목록 만들기]
+<dl>
+    <dt>이름</dt> -- 설명할 용어
+    <dd>설명</dd> -- 설명할 내용
+</dl>
+
